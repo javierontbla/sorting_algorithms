@@ -20,7 +20,3 @@ class SelectionSort:
             self.array[min_indx] = min_current
 
         return self.array
-
-
-selection = SelectionSort([2, 5, 1, 4, 8, 10, 3, 6, 8])
-print(selection.sort())
